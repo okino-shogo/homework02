@@ -22,15 +22,15 @@ def add_user(name, age):
 
 while True:
 
-    user_cm = input("Your command >")
+    user_cm = input("Your command > ")
 
     if user_cm == "S":
         all_star()
         print("")
 
     elif user_cm == "A":
-        new_name = input("New user name >")
-        new_age = input("New user age >")
+        new_name = input("New user name > ")
+        new_age = input("New user age > ")
         add_user(new_name, new_age)
         print(f"Add new user: {new_name}")
         print("")
